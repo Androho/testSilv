@@ -1,0 +1,41 @@
+@import "normalize.css";
+/*Ландшафтная телефоны*/
+@media (max-width: 480px) {
+.input-group{
+    max-width: 100px;
+}
+}
+
+/*От ландшафтная телефоны, до потретной наладонники*/
+@media (max-width: 767px) {
+}
+
+/*От портретная наладонники до ландшафтной и настольных дисплеев*/
+@media (min-width: 768px) and (max-width: 979px) {
+}
+
+/*Большой дисплей*/
+@media (min-width: 1200px) {
+}
+
+.my-logo {
+    width: 60px;
+}
+
+.my-left-marging {
+    margin-left: 20px;
+}
+
+.my-right-aling {
+    float: right;
+}
+
+.my-white {
+    background:#fff3cd;
+}
+.round {
+    border-radius: 100px; /* Радиус скругления */
+    border: 3px solid green; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    background: red;
+}
