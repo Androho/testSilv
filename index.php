@@ -36,8 +36,14 @@
                 </form>
             </div>
             <div class="navbar-brand my-left-marging">
-                <i class=" fa fa-shopping-cart fa-3x ml-auto"></i>
-                <i class="round">0</i>
+                <div class="wrapper">
+                    <div class="icon f">
+                        <div class="null">
+                            <span>0</span>
+                        </div>
+                        <i class="fa fa-shopping-cart fa-3x ml-auto"></i>
+                    </div>
+                </div>
 
             </div>
             <div class="navbar-text my-left-marging my-right-aling ml-auto">
