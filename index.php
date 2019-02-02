@@ -29,10 +29,14 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <div class="ml-auto">
-                <form class="form-inline input-group-sm justify-content-center" action="#">
-                    <input class="form-control mr-sm-2 ml-auto" type="text" placeholder="Search">
-                    <button class="btn btn-info" type="submit"><i class="fa fa-search"></i></button>
+            <div class="mobile-search mb-3 mb-sm-0">
+                <form>
+                    <div class="input-group">
+                        <input type="text" class="ajax-search form-control" placeholder="Поиск..."/>
+                        <div class="input-group-btn">
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
                 </form>
             </div>
             <div class="navbar-brand my-left-marging">
@@ -41,11 +45,28 @@
                         <div class="null">
                             <span>0</span>
                         </div>
-                        <i class="fa fa-shopping-cart fa-3x ml-auto"></i>
+                        <i class="fa fa-shopping-basket fa-2x ml-auto"></i>
                     </div>
                 </div>
-
+                <span>Корзина</span>
             </div>
+            <div class="navbar-brand my-left-marging">
+                <div class="wrapper">
+                    <div class="icon f">
+                        <i class="fa fa-phone fa-2x ml-auto"></i>
+                    </div>
+                </div>
+                <span>Перезвонить</span>
+            </div>
+            <div class="navbar-brand my-left-marging">
+                <div class="wrapper">
+                    <div class="icon f">
+                        <i class="fa fa-tags fa-2x ml-auto"></i>
+                    </div>
+                </div>
+                <span>Категории</span>
+            </div>
+
             <div class="navbar-text my-left-marging my-right-aling ml-auto">
                 <i class="fa fa-mobile fa-lg" style="color: #ffffff">+38(095)359-90-40</i> <br>
                 <i class="fa fa-mobile fa-lg" style="color: #ffffff">+38(068)126-78-78</i>
