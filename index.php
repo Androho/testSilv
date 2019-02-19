@@ -77,60 +77,7 @@
 <!--============-->
 <main style="margin-top: 100px;align-content: center; alignment: center; margin-left: 20px; margin-right: 20px">
     <div class="row">
-        <div class="col-md-3 col-sm-4 col-xs-6">
-            <img class="img-fluid" src="pics_silv/Браслеты/бр.%20Авелина%205100337.jpg" alt="...">
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
-            <img class="img-fluid" src="pics_silv/Браслеты%20смц/бр.%20Альвина%205160015.jpg" alt="...">
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
-            <img class="img-fluid" src="pics_silv/Броши/Брошь%20Августина%202%206110065.jpg" alt="...">
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
-            <img class="img-fluid" src="pics_silv/Заколки%20на%20галстук/Заколка%20на%20галстук%202%20эм%206100032.jpg" alt="...">
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
-            <img class="img-fluid" src="pics_silv/Запонки/Запонки%202%20шахматы%20эм%206100025.jpg" alt="...">
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
-            <img class="img-fluid" src="pics_silv/Колье/Колье%20Ариция%204110020.jpg" alt="...">
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
-            <img class="img-fluid" src="pics_silv/Колье%20Жгутик/Колье%20Жгутик%205%204100121.jpg" alt="...">
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
-            <img class="img-fluid" src="pics_silv/Кольца/к.%20А-21%202111013.jpg" alt="...">
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
-            <img class="img-fluid" src="pics_silv/Кольца%20смц/к.%20Аксиния%202160033.jpg" alt="...">
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
-            <img class="img-fluid" src="pics_silv/Браслеты/бр.%20Авелина%205100337.jpg" alt="...">
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
-            <img class="img-fluid" src="pics_silv/Браслеты%20смц/бр.%20Альвина%205160015.jpg" alt="...">
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
-            <img class="img-fluid" src="pics_silv/Броши/Брошь%20Августина%202%206110065.jpg" alt="...">
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
-            <img class="img-fluid" src="pics_silv/Заколки%20на%20галстук/Заколка%20на%20галстук%202%20эм%206100032.jpg" alt="...">
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
-            <img class="img-fluid" src="pics_silv/Запонки/Запонки%202%20шахматы%20эм%206100025.jpg" alt="...">
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
-            <img class="img-fluid" src="pics_silv/Колье/Колье%20Ариция%204110020.jpg" alt="...">
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
-            <img class="img-fluid" src="pics_silv/Колье%20Жгутик/Колье%20Жгутик%205%204100121.jpg" alt="...">
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
-            <img class="img-fluid" src="pics_silv/Кольца/к.%20А-21%202111013.jpg" alt="...">
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
-            <img class="img-fluid" src="pics_silv/Кольца%20смц/к.%20Аксиния%202160033.jpg" alt="...">
-        </div>
+<? include('get_category.php');?>
     </div>
 </main>
 <!--============-->
